@@ -1,0 +1,27 @@
+/*
+.principal{
+    background-color: rgb(255, 0, 136);
+}
+
+.cabecera{
+background-color: yellow;
+}
+
+.cuerpo{
+    background-color: rgb(26, 0, 128);
+}
+
+.pie{
+    background-color: red;
+}
+
+
+.identidad{
+    background-color: yellow;
+}
+
+*/
+
+.cuerpo > div{
+    background-color: aqua;
+}

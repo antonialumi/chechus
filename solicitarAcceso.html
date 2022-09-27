@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chechu Tortas - Solicitar Acceso</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="server.js"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="principal">
+        <div class="cabecera">
+            <div class="identidad">
+                Chechu Tortas
+            </div>
+        </div>
+        <div class="volver">
+            <a href="./index.html"> &lt; volver a inicio de sesion </a>
+        </div>
+        <div class="cuerpo">
+            <div class="titulo">Solicitar Acceso</div>
+            <div class="formulario">
+                <div class="campos-de-texto">
+                    <div class="email">
+                        <div class="columna-texto">
+                            Email
+                        </div>
+                        <div class="columna-campo">
+                            <input 
+                                type="text" 
+                                name="email" 
+                                placeholder="Ingrese su mail aqui"/>
+                        </div>
+                    </div>
+                    <div class="nombre">
+                        <div class="columna-texto">
+                            Nombre completo
+                        </div>
+                        <div class="columna-campo">
+                            <input 
+                                type="text" 
+                                name="fullname" 
+                                placeholder="Ingrese su nombre completo aqui"/>
+                        </div>
+                    </div>
+                    <div class="password">
+                        <div class="columna-texto">
+                            Password
+                        </div>
+                        <div class="columna-campo">
+                            <input 
+                                type="password" 
+                                name="password" 
+                                placeholder="Ingrese su contrase&ntilde;a aqui"/>
+                        </div>
+                    </div>
+                    <div class="password-dos">
+                        <div class="columna-texto">
+                            Reingresar password
+                        </div>
+                        <div class="columna-campo">
+                            <input 
+                                type="password" 
+                                name="password2" 
+                                placeholder="Vuelva a ingresar su contrase&ntilde;a aqui"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="divisor"></div>
+                <div class="enviar-formulario">
+                    <button onclick="solicitarAcceso()">Enviar Formulario</button>
+                </div>
+            </div>
+        </div>
+        <div class="pie">
+            desarrollado por @antolumi
+        </div>
+    </div>
+</body>
+</html>
